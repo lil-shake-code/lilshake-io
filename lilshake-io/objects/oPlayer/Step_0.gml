@@ -7,7 +7,7 @@ vmove*=3+3*keyboard_check(vk_shift)
 hmove*=3+3*keyboard_check(vk_shift)
 
 
-
+//Collisison code
 if(!place_meeting(x+ hmove, y+vmove,oWall)){
 	x += hmove 
 	y += vmove 
@@ -34,6 +34,26 @@ if (!will_collide) {
     image_angle = new_angle;
 }
 
-oGun.x = x
-oGun.y = y
-oGun.image_angle = image_angle
+
+
+
+//shooting
+if (mouse_check_button_pressed(mb_left)){
+	var bullet = instance_create_layer(
+	x + lengthdir_x(40,image_angle-45),
+	y + lengthdir_y(40,image_angle -45)
+	,"Instances",oBullet)
+	bullet.image_angle = image_angle
+	bullet.direction = image_angle
+	bullet.speed = 15;
+	bullet.image_xscale = 0.5
+	bullet.image_yscale = bullet.image_xscale
+}
+
+
+//MULTIPLAYER
+
+
+
+
+

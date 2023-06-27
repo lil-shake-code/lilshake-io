@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGun",
-  "eventList": [],
+  "name": "oOtherPlayersEntity",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Rocket Networking",
+    "path": "folders/Objects/Rocket Networking.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sGun",
-    "path": "sprites/sGun/sGun.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
