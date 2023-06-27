@@ -54,7 +54,6 @@
     {"id":{"name":"Demo","path":"rooms/Demo/Demo.yy",},},
     {"id":{"name":"ShowAllClientsInRoom","path":"scripts/ShowAllClientsInRoom/ShowAllClientsInRoom.yy",},},
     {"id":{"name":"callback_ShowAllRooms","path":"scripts/callback_ShowAllRooms/callback_ShowAllRooms.yy",},},
-    {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"sRed","path":"sprites/sRed/sRed.yy",},},
     {"id":{"name":"ConnectToServer","path":"scripts/ConnectToServer/ConnectToServer.yy",},},
     {"id":{"name":"PreConnect","path":"scripts/PreConnect/PreConnect.yy",},},

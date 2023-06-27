@@ -4,8 +4,11 @@
 * Update this struct
 */
 entityProperties = {
-	_entityId : entityId
+	_entityId : entityId,
 	//Add stuff here like type / x / y / whatever
+	
+	_x : x,
+	_y : y
 
 
 }

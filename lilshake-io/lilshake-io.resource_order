@@ -35,7 +35,6 @@
     {"name":"SendMessageToClient","order":5,"path":"scripts/SendMessageToClient/SendMessageToClient.yy",},
     {"name":"ShowAllClientsInRoom","order":6,"path":"scripts/ShowAllClientsInRoom/ShowAllClientsInRoom.yy",},
     {"name":"callback_ShowAllRooms","order":6,"path":"scripts/callback_ShowAllRooms/callback_ShowAllRooms.yy",},
-    {"name":"oBullet","order":2,"path":"objects/oBullet/oBullet.yy",},
     {"name":"ConnectToServer","order":1,"path":"scripts/ConnectToServer/ConnectToServer.yy",},
     {"name":"PreConnect","order":4,"path":"scripts/PreConnect/PreConnect.yy",},
     {"name":"callback_ReceivedMessage","order":4,"path":"scripts/callback_ReceivedMessage/callback_ReceivedMessage.yy",},

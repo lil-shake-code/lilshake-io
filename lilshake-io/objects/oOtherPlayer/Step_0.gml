@@ -13,10 +13,15 @@ or whatever you want to update in any way from
 your sharedProperties
 */
 
+	if(x==-1){
+		x = real(SP._x)
+		y = real(SP._y)
+	}else{
+		x = lerp(x,real(SP._x), 0.7 )
+		y = lerp(y,real(SP._y), 0.7 )
+	}
 
-	x = real(SP._x)
-	y = real(SP._y)
-	var name = SP._name 
+	image_angle = real(SP._A)
 
 
 

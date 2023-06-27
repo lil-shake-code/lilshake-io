@@ -39,20 +39,25 @@ if (!will_collide) {
 
 //shooting
 if (mouse_check_button_pressed(mb_left)){
-	var bullet = instance_create_layer(
-	x + lengthdir_x(40,image_angle-45),
-	y + lengthdir_y(40,image_angle -45)
-	,"Instances",oBullet)
-	bullet.image_angle = image_angle
-	bullet.direction = image_angle
-	bullet.speed = 15;
-	bullet.image_xscale = 0.5
-	bullet.image_yscale = bullet.image_xscale
+	repeat(3){
+		var bullet = instance_create_layer(
+		x + lengthdir_x(40,image_angle-45),
+		y + lengthdir_y(40,image_angle -45)
+		,"Instances",oMyEntity)
+		bullet.image_angle = image_angle
+		bullet.direction = image_angle + irandom_range(-10,10)
+		bullet.speed = 15
+	}
+	
 }
 
 
 //MULTIPLAYER
-
+global.sharedProperties = {
+	_x :x,
+	_y: y,
+	_A : image_angle
+}
 
 
 

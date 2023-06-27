@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sBullet",
+    "path": "sprites/sBullet/sBullet.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
