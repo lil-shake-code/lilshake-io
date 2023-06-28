@@ -22,6 +22,8 @@ your sharedProperties
 	}
 
 	image_angle = real(SP._A)
+	
+	enemyHealth = real(SP._H)
 
 
 

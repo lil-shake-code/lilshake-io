@@ -18,3 +18,4 @@ roomId = -1
 //add your personal variables under this line
 x = -1
 y =-1
+enemyHealth = 100

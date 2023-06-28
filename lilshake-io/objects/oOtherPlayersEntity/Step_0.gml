@@ -18,8 +18,8 @@ your entityProperties
 		x = real(EP._x)
 		y = real(EP._y)
 	}else{
-		x = lerp(x,real(EP._x), 0.7 )
-		y = lerp(y,real(EP._y), 0.7 )
+		x = lerp(x,real(EP._x), 0.1 )
+		y = lerp(y,real(EP._y), 0.1 )
 	}
 
 	

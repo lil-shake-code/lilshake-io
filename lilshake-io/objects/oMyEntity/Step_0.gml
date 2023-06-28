@@ -13,6 +13,16 @@ entityProperties = {
 
 }
 
+//if this hits another player, destroy and tell the other player you got hit
+var victim = instance_place(x,y,oOtherPlayer);
+
+if(victim != noone){
+	instance_destroy();
+	SendMessageToClient(victim.clientId, "hit")
+
+}
+
+
 
 
 

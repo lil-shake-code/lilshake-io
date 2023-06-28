@@ -26,4 +26,4 @@ global.manualServerURL = "add it here if youre doing it manually"
 * The higher this Time period is in frames, thats how many frames later the server is updated
 */
 global.sharingFrequency = 1 ;    //Equivalent to alarm of 1 frame
-global.entitySharingFrequency = 3   //for entities
+global.entitySharingFrequency = 1   //for entities

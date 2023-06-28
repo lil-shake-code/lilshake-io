@@ -56,7 +56,8 @@ if (mouse_check_button_pressed(mb_left)){
 global.sharedProperties = {
 	_x :x,
 	_y: y,
-	_A : image_angle
+	_A : image_angle,
+	_H: health
 }
 
 
