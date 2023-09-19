@@ -7,6 +7,7 @@ entitiesCreated = 0;
 entitiesActive= []
 alarm[0]=5
 alarm[1]=5
+global.clientId = -1
 
 global.ping = -1
 global.sharedProperties = {

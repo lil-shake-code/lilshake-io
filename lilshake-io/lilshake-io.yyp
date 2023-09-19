@@ -64,6 +64,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"callback_DisconnectFromServer","path":"scripts/callback_DisconnectFromServer/callback_DisconnectFromServer.yy",},},
     {"id":{"name":"oOtherPlayer","path":"objects/oOtherPlayer/oOtherPlayer.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"ChangeRoom","path":"scripts/ChangeRoom/ChangeRoom.yy",},},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
     {"id":{"name":"callback_ConnectToServer","path":"scripts/callback_ConnectToServer/callback_ConnectToServer.yy",},},
@@ -75,8 +76,8 @@
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rLogin","path":"rooms/rLogin/rLogin.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
+    {"roomId":{"name":"rLogin","path":"rooms/rLogin/rLogin.yy",},},
     {"roomId":{"name":"Demo","path":"rooms/Demo/Demo.yy",},},
   ],
   "TextureGroups": [

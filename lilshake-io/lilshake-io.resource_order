@@ -43,6 +43,7 @@
     {"name":"sBullet","order":3,"path":"sprites/sBullet/sBullet.yy",},
     {"name":"callback_DisconnectFromServer","order":2,"path":"scripts/callback_DisconnectFromServer/callback_DisconnectFromServer.yy",},
     {"name":"oOtherPlayer","order":2,"path":"objects/oOtherPlayer/oOtherPlayer.yy",},
+    {"name":"oCamera","order":5,"path":"objects/oCamera/oCamera.yy",},
     {"name":"callback_ConnectToServer","order":1,"path":"scripts/callback_ConnectToServer/callback_ConnectToServer.yy",},
     {"name":"rLogin","order":2,"path":"rooms/rLogin/rLogin.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
