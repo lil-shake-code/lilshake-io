@@ -76,8 +76,8 @@
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"rLogin","path":"rooms/rLogin/rLogin.yy",},},
+    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"Demo","path":"rooms/Demo/Demo.yy",},},
   ],
   "TextureGroups": [
