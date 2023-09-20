@@ -61,5 +61,16 @@ global.sharedProperties = {
 }
 
 
-
+//death and deathcam
+if(health<=0){
+	oCamera.follow=noone
+	oCamera.alarm[0] = 60*2
+	with(oOtherPlayer){
+		if(real(clientId) == global.lastBulletFiredBy){
+			oCamera.follow = id
+			oCamera.myKillerName = id.enemyName
+		}
+	}
+	instance_destroy()
+}
 

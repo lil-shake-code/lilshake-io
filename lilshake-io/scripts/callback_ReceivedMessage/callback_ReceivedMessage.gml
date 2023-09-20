@@ -5,6 +5,7 @@ function callback_ReceivedMessage(theMessage , senderClientId){
 	
 	if(theMessage == "hit"){
 		health-=10;
+		global.lastBulletFiredBy = real(senderClientId)
 	}
 
 }

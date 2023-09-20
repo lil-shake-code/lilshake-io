@@ -17,8 +17,12 @@ entityProperties = {
 var victim = instance_place(x,y,oOtherPlayer);
 
 if(victim != noone){
-	instance_destroy();
-	SendMessageToClient(victim.clientId, "hit")
+	
+	if(victim.enemyHealth>0){
+		instance_destroy();
+		SendMessageToClient(victim.clientId, "hit")
+	}
+	
 
 }
 
