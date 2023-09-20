@@ -46,7 +46,7 @@ if (mouse_check_button_pressed(mb_left)){
 		,"Instances",oMyEntity)
 		bullet.image_angle = image_angle
 		bullet.direction = image_angle + irandom_range(-10,10)
-		bullet.speed = 15
+		bullet.speed = 12
 	}
 	
 }
