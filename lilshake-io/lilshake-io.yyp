@@ -72,6 +72,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"fGame","path":"fonts/fGame/fGame.yy",},},
     {"id":{"name":"callback_ShowAllClientsInRoom","path":"scripts/callback_ShowAllClientsInRoom/callback_ShowAllClientsInRoom.yy",},},
+    {"id":{"name":"sGithub","path":"sprites/sGithub/sGithub.yy",},},
     {"id":{"name":"callback_ChangeRoom","path":"scripts/callback_ChangeRoom/callback_ChangeRoom.yy",},},
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],

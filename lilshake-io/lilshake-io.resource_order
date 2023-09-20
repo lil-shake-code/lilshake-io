@@ -48,5 +48,6 @@
     {"name":"rLogin","order":2,"path":"rooms/rLogin/rLogin.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"callback_ShowAllClientsInRoom","order":5,"path":"scripts/callback_ShowAllClientsInRoom/callback_ShowAllClientsInRoom.yy",},
+    {"name":"sGithub","order":5,"path":"sprites/sGithub/sGithub.yy",},
   ],
 }
