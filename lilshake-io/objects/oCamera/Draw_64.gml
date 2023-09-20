@@ -35,6 +35,7 @@ if(mouse_check_button_pressed(mb_left)
 and 
 point_in_rectangle(mx,my,bw*0.4 , bh*0.43, bw*0.6, bh*.47)){
 	
+	DisconnectFromServer()
 	room_restart()
 	
 }
