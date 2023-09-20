@@ -69,6 +69,7 @@ if(health<=0){
 		if(real(clientId) == global.lastBulletFiredBy){
 			oCamera.follow = id
 			oCamera.myKillerName = id.enemyName
+			DisconnectFromServer()
 		}
 	}
 	instance_destroy()

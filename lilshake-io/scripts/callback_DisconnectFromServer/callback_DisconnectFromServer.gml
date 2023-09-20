@@ -5,6 +5,6 @@ function callback_DisconnectFromServer(){
 //your server (volunarily after calling the main function)
 
 	//edit ths code to do whatever you want
-	show_message("You have successfully disconnected")
+	show_debug_message("You have successfully disconnected")
 
 }
