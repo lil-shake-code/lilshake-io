@@ -3,3 +3,5 @@
 global.username = ""
 
 window_center()
+
+window_set_cursor(cr_cross)
