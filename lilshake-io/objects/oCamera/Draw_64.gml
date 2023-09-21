@@ -1,11 +1,12 @@
 /// @description Drawing the death screen when deas
 // You can write your code in this editor
+var bw = browser_width
+var bh = browser_height
 if(alarm[0]=-1 and !(instance_exists(oPlayer))){
 
 /// @description Insert description here
 // You can write your code in this editor
-var bw = browser_width
-var bh = browser_height
+
 
 var mx = device_mouse_x_to_gui(0)
 var my = device_mouse_y_to_gui(0)
@@ -71,4 +72,15 @@ point_in_circle(mx,my,bw*0.5, bh*0.9, 70*scale)){
 
 
 
+}else{
+//players in this world
+
+draw_set_halign(fa_left)
+draw_set_color(c_yellow)
+draw_text_transformed(bw*0.01, bh*0.015,"Players in this World : "+string(1+instance_number(oOtherPlayer)),0.2,0.2,0)
+draw_text_transformed(bw*0.01, bh*0.04,"PING : "+string(global.ping)+"ms",0.2,0.2,0)
+
+draw_set_halign(fa_center)
+
 }
+

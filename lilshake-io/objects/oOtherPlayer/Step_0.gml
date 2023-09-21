@@ -24,6 +24,12 @@ your sharedProperties
 	image_angle = real(SP._A)
 	
 	enemyHealth = real(SP._H)
+	
+	show_debug_message(SP._N)
+	
+	if(is_string(SP._N)){
+		enemyName= SP._N
+	}
 
 
 

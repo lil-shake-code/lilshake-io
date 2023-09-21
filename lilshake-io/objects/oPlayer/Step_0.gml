@@ -57,7 +57,8 @@ global.sharedProperties = {
 	_x :x,
 	_y: y,
 	_A : image_angle,
-	_H: health
+	_H: health,
+	_N : global.username
 }
 
 
