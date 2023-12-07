@@ -28,6 +28,7 @@ try{
 
 	
 	show_debug_message("Trying to connect to your Rocket Server")
+	show_debug_message("I got the IP as "+IP)
 	connect=network_connect_raw_async(socket, IP,PORT)
 	show_debug_message("connect is "+string(connect))
 

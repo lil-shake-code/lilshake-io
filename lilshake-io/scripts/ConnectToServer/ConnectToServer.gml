@@ -4,23 +4,12 @@ function ConnectToServer(){
 	if(!global.manualServerURLconnection){
 		PreConnect()
 	}else{
-		if(string_length(global.manualServerURL)>15){
-			//this is a paid customer
-			show_debug_message("Connecting to paid private server")
-	
-			oBrain.socket = network_create_socket(network_socket_wss)
-			var PORT=443
-		}else{
-			//this is a free customer
-			show_debug_message("connecting to free public server")
 		
-		
-			oBrain.socket = network_create_socket(network_socket_wss)
-			var PORT=443
-		
-		}
-
+		oBrain.socket = network_create_socket(network_socket_wss)
+		var PORT=443
 		var IP = global.manualServerURL
+		
+		show_debug_message("Set to "+IP+" at port "+PORT+" assuming a safe wss connection.")
 
 	
 		show_debug_message("Trying to connect to your Rocket Server")

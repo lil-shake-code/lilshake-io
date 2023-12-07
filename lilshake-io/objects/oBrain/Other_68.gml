@@ -52,15 +52,18 @@ if(type == network_type_data){
 		case "alert":
 		//show_message(buffer_processed)
 			if(realData.type == "show"){
-				show_message(realData.message)
+				callback_Admin(realData.message)
+			
 			}
 		
 		break;
 		
 		case "changed_room":
 		if(realData.roomId == string(global.clientId)){
+			global.roomId = realData.roomId
 			callback_LeaveRoom()
 		}else{
+			global.roomId = realData.roomId
 			callback_ChangeRoom(realData.roomId)
 		}
 		instance_destroy(oOtherPlayer)
@@ -84,7 +87,7 @@ if(type == network_type_data){
 			if(clientId==real(realData.clientId)){
 				sharedProperties = realData.SP;
 				found = true;
-				show_debug_message("found this player")
+				//show_debug_message("found this player")
 				//Now also update the entities for this player
 				entities =(realData.entities);
 				
@@ -96,7 +99,7 @@ if(type == network_type_data){
 			}
 		}
 		if(!found and real(realData.clientId!=global.clientId)){
-			show_debug_message("creating a new player")
+			//show_debug_message("creating a new player")
 			var new_enemy = instance_create_layer(0,0,global.OtherPlayersLayerName,oOtherPlayer);
 			new_enemy.clientId = real(realData.clientId);
 			new_enemy.roomId = realData.roomId;
@@ -115,7 +118,13 @@ if(type == network_type_data){
 		with(oOtherPlayer){
 			if(clientId==real(realData.clientId)){
 				instance_destroy(id);
-				show_debug_message("found player to destroy")
+				
+			}
+		}
+		with(oOtherPlayersEntity){
+			if(clientId==real(realData.clientId)){
+				instance_destroy(id);
+				
 			}
 		}
 		

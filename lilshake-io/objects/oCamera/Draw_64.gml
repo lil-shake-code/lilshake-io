@@ -80,6 +80,9 @@ draw_set_color(c_yellow)
 draw_text_transformed(bw*0.01, bh*0.015,"Players in this World : "+string(1+instance_number(oOtherPlayer)),0.2,0.2,0)
 draw_text_transformed(bw*0.01, bh*0.04,"PING : "+string(global.ping)+"ms",0.2,0.2,0)
 
+draw_set_color(c_white)
+draw_text_transformed(bw*0.01, bh*0.07,"SCORE : "+string(score),0.3,0.3,0)
+
 draw_set_halign(fa_center)
 
 }
