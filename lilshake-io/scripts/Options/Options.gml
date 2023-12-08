@@ -7,7 +7,7 @@
 * This identifies your Rocket Net Server
 * Please do not share with anyone!
 */
-global.SERVERID = "ePML1Npse9SxKjzee6YnO3l0rnT2"
+global.SERVERID = "please put your server id here"
 
 
 /*
