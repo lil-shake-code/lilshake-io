@@ -9,7 +9,7 @@ function ConnectToServer(){
 		var PORT=443
 		var IP = global.manualServerURL
 		
-		show_debug_message("Set to "+IP+" at port "+PORT+" assuming a safe wss connection.")
+		show_debug_message("Set to "+IP+" at port "+string(PORT)+" assuming a safe wss connection.")
 
 	
 		show_debug_message("Trying to connect to your Rocket Server")

@@ -12,7 +12,7 @@ if(type == network_type_non_blocking_connect){
 			var Buffer = buffer_create(1, buffer_grow, 1)
 			//WHAT DATA 
 			var data = ds_map_create();
-			data[? "serverId"] = global.SERVERID;
+			data[? "serverId"] =  md5_string_utf8( global.SERVERID)
 			//whatever data you want to send as key value pairs
 
 			ds_map_add(data,"eventName","join_server");

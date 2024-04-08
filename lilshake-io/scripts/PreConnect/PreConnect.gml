@@ -13,7 +13,7 @@ function PreConnect(){
 	headers[?"Content-Type"] = "application/x-www-form-urlencoded";
 
 
-	http_request(url, "POST" , headers , global.SERVERID) //http_post_string(url,json_stringify(data))
+	http_request(url, "POST" , headers ,  md5_string_utf8( global.SERVERID)) //http_post_string(url,json_stringify(data))
 	
 	show_debug_message("Asking RNet backend to give us our server information from bckend..")
 

@@ -7,7 +7,7 @@
 * This identifies your Rocket Net Server
 * Please do not share with anyone!
 */
-global.SERVERID = "please put your server id here"
+global.SERVERID = "please put server id here"
 
 
 /*
@@ -20,7 +20,7 @@ global.OtherPlayersLayerName = "Instances"
 * from dashboard.rocketnetworking.net
 */
 global.manualServerURLconnection = false;
-global.manualServerURL = "rocket-networking.uc.r.appspot.com/"
+global.manualServerURL = "server.rocketnetworking.net"
 
 /*
 * How often do you want to share your sharedProperties?
